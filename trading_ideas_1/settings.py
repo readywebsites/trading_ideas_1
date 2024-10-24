@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'trading',
-        'USER': 'trading_ideas',
+        'USER': 'trading_ideas_2',
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '',
