@@ -1,0 +1,50 @@
+# Django specific files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Local environment files
+.env
+*.env
+.env.local
+*.env.local
+
+# Virtual environment
+venv/
+virtualenv/
+env/
+ENV/
+.venv/
+.virtualenv/
+.ENV/
+
+# Migrations
+migrations/
+*/migrations/
+!*/migrations/__init__.py  # Keep __init__.py to ensure migrations are treated as packages
+
+# Static files
+/static/
+media/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Other files
+*.log
+*.pot
+*.py[cod]
